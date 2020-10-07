@@ -12,6 +12,16 @@ button {
   font-family: Arial, sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Header */
 
 .menu {
@@ -87,6 +97,7 @@ button {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   padding: 56px 8px 0;
   align-items: center;
