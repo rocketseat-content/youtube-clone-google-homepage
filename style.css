@@ -166,3 +166,14 @@ body {
 .footer__links a:not(:first-child) {
   margin-left: 27px;
 }
+
+/* Media Query */
+
+@media (min-width: 763px) {
+  .content {
+    padding-top: 120px;
+  }
+  .content__logo {
+    height: 150px;
+  }
+}
