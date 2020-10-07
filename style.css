@@ -68,9 +68,11 @@ button {
   padding: 4px;
   width: 40px;
   height: 40px;
+  position: relative;
 }
 
 .menu__avatar--frame {
+  position: absolute;
 }
 
 .menu__avatar {
