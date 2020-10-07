@@ -89,6 +89,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 56px 8px 0;
+  align-items: center;
 }
 
 .content__logo {
@@ -99,6 +100,7 @@ button {
   margin-top: 18px;
 
   width: 100%;
+  max-width: 736px;
   padding: 7px 10px 6px 20px;
 
   font-size: 18px;
