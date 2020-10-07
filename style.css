@@ -121,3 +121,37 @@ button {
   text-decoration: none;
   color: #1967d2;
 }
+
+/* Footer */
+
+.footer {
+  margin-top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+}
+
+.footer__section:not(:first-child) {
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer__location {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 10px 12px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 13px;
+  color: #5f6368;
+  padding: 10px;
+}
+
+.footer__links a:not(:first-child) {
+  margin-left: 27px;
+}
