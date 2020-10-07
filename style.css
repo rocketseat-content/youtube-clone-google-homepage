@@ -55,3 +55,26 @@ button {
 .menu__link:not(.active) {
   margin-bottom: 2px;
 }
+
+.menu__section.right {
+  margin-right: 4px;
+}
+
+.menu__section.right .menu__icon {
+  padding: 12px;
+}
+
+.menu__profile {
+  padding: 4px;
+  width: 40px;
+  height: 40px;
+}
+
+.menu__avatar--frame {
+}
+
+.menu__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
